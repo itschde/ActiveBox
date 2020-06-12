@@ -1,0 +1,53 @@
+*, *:before, *:after {
+	box-sizing: border-box;
+}
+
+.container {
+	width: 100%;
+	max-width: 1170px;
+	margin: 0px auto;
+}
+
+body {
+	background-color: #000;
+	margin: 0px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 14px;
+	color: #6c7279;
+}
+
+/* Header
+==============================================*/
+
+.header {
+
+}
+
+.header__inner {
+	align-items: center;
+	padding: 35px 0px;
+	border-bottom: 1px solid #515369;
+	display: flex;
+	justify-content: space-between;
+}
+
+/* Navigation
+==============================================*/
+
+.nav {
+	font-size: 13px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.nav__link {
+	opacity: .75;
+	color: #fff;
+	text-decoration: none;
+}
+
+.nav__link:hover {
+	opacity: 1;
+	text-decoration: underline;
+	color: #848484;
+}
